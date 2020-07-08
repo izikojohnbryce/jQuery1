@@ -137,7 +137,7 @@ function generateSingleCar(index, lp) {
 
 (function () {
     startNotifications();
-    DOM.listData = $("#data")[0];
+    DOM.listData = $("#data")[0];  // adding location [0] as the '$' return arry and change the type fo the data I got back. getEventListner was returning to me the object as should.
     DOM.cardsData = $("#data-cards")[0];
     DOM.tableData = $("#table-data")[0];
     DOM.tableHead = $("#table-head")[0];
@@ -172,7 +172,7 @@ function generateSingleCar(index, lp) {
 
     searchOperation.addEventListener("click", function () {
         const value = $("#searchValue")[0].value;
-        const searchBy = $("#search-select")[0].value;
+        const searchBy = $("#search-select")[0].value; // adding location [0] as the '$' return arry and change the type fo the data I got back. getEventListner was returning to me the object as should. 
         if (!value) return;
 
         const currentValue = typeof value === 'string' ? value.toLowerCase() : value;
