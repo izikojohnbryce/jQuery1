@@ -1,7 +1,7 @@
 const notifications = [
     { showTime: 1 * 1000, hideTime: 3 * 1000, message: "Check out our new Search!!!" },
-    { showTime: 4 * 1000, hideTime: 6 * 1000, message: "We also have Table display" },
-    { showTime: 10 * 1000, hideTime: 12 * 1000, message: "Hi this is Yoni, call me i am availble at 100" }
+    { showTime: 1 * 1000, hideTime: 6 * 1000, message: "We also have Table display" },
+    { showTime: 1 * 1000, hideTime: 12 * 1000, message: "Hi this is Yoni, call me i am availble at 100" }
 ]
 
 function startNotifications() {
