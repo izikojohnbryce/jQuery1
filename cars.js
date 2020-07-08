@@ -172,7 +172,7 @@ function generateSingleCar(index, lp) {
 
     searchOperation.addEventListener("click", function () {
         const value = $("#searchValue")[0].value;
-        const searchBy = $("#search-select")[0].value; // adding location [0] as the '$' return arry and change the type fo the data I got back. getEventListner was returning to me the object as should. 
+        const searchBy = $("#search-select")[0].value; // adding location [0] as the '$' return arry and change the type fo the data I got back. then we return the value.
         if (!value) return;
 
         const currentValue = typeof value === 'string' ? value.toLowerCase() : value;
